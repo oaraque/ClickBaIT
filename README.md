@@ -14,14 +14,14 @@ Both the `gold` and `silver` datasets comprise the following entries.
 
 ```json
 {
-    "name": name of the source,
-    "macro_category": scienza | salute | economia | ambiente,
-    "date": DateTime format ,
-    "article_url": url of the article,
-    "title": headline of the article,
-    "article": text of the article,
-    "title_clickBaitScore": float,
-    "is_clickbait": 1 is clickbait else 0
+    "name": "name of the source",
+    "macro_category": "scienza | salute | economia | ambiente",
+    "date": "DateTime format" ,
+    "article_url": "url of the article",
+    "title": "headline of the article",
+    "article": "text of the article",
+    "title_clickBaitScore": "clickbait automatic score",
+    "is_clickbait": "1 is clickbait else 0"
 }
 ```
 Entries from the `gold` dataset comprises two more manually annotated field, namely `spoiler` and `new_headline` (i.e., the neutralised version of the clickbait headline).
